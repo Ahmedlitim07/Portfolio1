@@ -1,7 +1,4 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+
 body {
   font-family: "montserrat";
 }
@@ -62,6 +59,10 @@ body {
   margin: 0rem -7rem 6rem -8rem !important;
 }
 @media (max-width: 991px) {
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
   .first-section {
     text-align: center;
     padding-bottom: 13rem;
